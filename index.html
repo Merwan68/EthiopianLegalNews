@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ethiopia Legal News</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Ethiopia Legal News</h1>
+
+<p>
+Latest Ethiopian Legal News, Court Decisions,
+Legal Commentary and Public Sources
+</p>
+
+<div class="search-container">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search legal news..."
+>
+
+<button onclick="searchNews()">
+Search
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<nav class="navbar">
+
+<a href="#">All News</a>
+
+<a href="#">Courts</a>
+
+<a href="#">Cassation</a>
+
+<a href="#">Government</a>
+
+<a href="#">Commentary</a>
+
+</nav>
+
+<main>
+
+<section class="stats">
+
+<div class="glass-card">
+<h2 id="articleCount">0</h2>
+<p>Articles</p>
+</div>
+
+<div class="glass-card">
+<h2>24/7</h2>
+<p>Updates</p>
+</div>
+
+<div class="glass-card">
+<h2>RSS</h2>
+<p>Feeds</p>
+</div>
+
+</section>
+
+<section id="newsContainer">
+
+<div class="loading">
+
+Loading news...
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+© 2026 Ethiopia Legal News
+</p>
+
+<p>
+News remains property of the original publishers.
+This website only aggregates headlines and links.
+</p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
